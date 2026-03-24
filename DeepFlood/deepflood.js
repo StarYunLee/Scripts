@@ -7,14 +7,12 @@
 
 重写：
 - 登录网站后点击个人名称，查看个人名片信息。
-- 可在boxjs设置是否领取随机鸡腿，默认固定鸡腿。考虑到严格的审核机制，脚本仅有签到功能。
-- boxjs地址：https://raw.githubusercontent.com/QiXiuYuano/Scripts/main/qixiuyuan.boxjs.json
 
 1. Surge:
 [Script]
-DeepFloodToken = type=http-response, pattern=^https:\/\/www\.deepflood\.com\/api\/account\/getInfo\/(.+)phone=1, script-path=https://raw.githubusercontent.com/QiXiuYuano/Scripts/main/DeepFlood/deepflood.js, requires-body=true, timeout=60
+DeepFloodToken = type=http-response, pattern=^https:\/\/www\.deepflood\.com\/api\/account\/getInfo\/(.+)phone=1, script-path=https://raw.githubusercontent.com/StarYunLee/Scripts/main/DeepFlood/deepflood.js, requires-body=true, timeout=60
  
-DeepFloodCheckin = type=cron, cronexp={{{cron}}}, script-path=https://raw.githubusercontent.com/QiXiuYuano/Scripts/main/DeepFlood/deepflood.js, timeout=60, wake-system=1
+DeepFloodCheckin = type=cron, cronexp={{{cron}}}, script-path=https://raw.githubusercontent.com/StarYunLee/Scripts/main/DeepFlood/deepflood.js, timeout=60, wake-system=1
 
 [MITM]
 hostname = www.deepflood.com
