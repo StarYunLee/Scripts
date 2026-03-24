@@ -9,8 +9,8 @@
  * - 脚本仅在本地运行，数据不会上传
  * - 支持多条线路，自动区分主线路与备用线路
  * 
- * 作者：https://github.com/QiXiuYuano
- * 脚本地址：https://raw.githubusercontent.com/QiXiuYuano/Scripts/refs/heads/main/scheme_generate/emby_scheme_generator_v2.js
+ * 作者：https://github.com/StarYunLee
+ * 脚本地址：https://raw.githubusercontent.com/StarYunLee/Scripts/refs/heads/main/scheme_generate/emby_scheme_generator_v2.js
  * 转载请保留来源
  */
 
