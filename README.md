@@ -6,14 +6,6 @@
 
 这个仓库包含我个人在学习和研究过程中编写的各类脚本，主要用于提升编程技能和解决实际问题。脚本涵盖了多种用途和平台。
 
-## 配置管理
-
-推荐使用 [Box.js](https://github.com/chavyleung/boxjs) 进行参数配置管理，提供图形化界面配置参数，相比手动编辑模块/插件参数更友好、更直观。
-
-### Box.js 订阅地址
-```
-https://raw.githubusercontent.com/QiXiuYuano/Scripts/main/qixiuyuan.boxjs.json
-```
 
 ## 免责声明
 
